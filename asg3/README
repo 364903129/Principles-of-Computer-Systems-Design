@@ -1,0 +1,3 @@
+curl -T localfile http://localhost:8080 --request-target filename_27_character (put command)
+curl http://localhost8080 --request-target filename_27_character (get command)
+The code are able to save file into cache. max files is 4.
