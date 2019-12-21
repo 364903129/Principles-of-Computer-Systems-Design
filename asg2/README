@@ -2,7 +2,4 @@ complie the code using the command : gcc httpserver.c -lpthread -o httpserver
 running the code using the command : ./httpserver -N 5 -L test.txt localhost 8080
 it tells the server to create 5 threads, write the log file to test.txt. the erver would listen for conections on localhost : 8080
 
-The makefile doesn't work somehow, It always give me linker error when I complie.
 The above complie command is working fine. 
-This code is missing write log to the file
-Used 1 grace day on this program assignment.
